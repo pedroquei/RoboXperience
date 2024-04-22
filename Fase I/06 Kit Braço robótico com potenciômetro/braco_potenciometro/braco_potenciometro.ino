@@ -1,10 +1,10 @@
 // inclui bibilioteca do servomotor
 #include <Servo.h> 
 
-// define pinos dos servos
+// define pinos dos servosa
 #define pinServ1 2
 #define pinServ2 3
-#define pinServ3 4
+#define pinServ3 4a
 #define pinServ4 5
 
 // define as portas dos potenciometros

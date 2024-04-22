@@ -30,5 +30,4 @@ void loop()
   digitalWrite(Amarelo, HIGH);
   delay(1000);
   digitalWrite(Amarelo, LOW);
-  
 }

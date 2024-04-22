@@ -11,14 +11,12 @@ int rgbBlue;
 
 
 void setup() {
-  // put your setup code here, to run once:
 pinMode (LedGreen, OUTPUT);
 pinMode (LedRed, OUTPUT);
 pinMode (LedBlue, OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 pot3 = analogRead(1);
 rgbBlue = map(pot3,0,1023,0,255);
